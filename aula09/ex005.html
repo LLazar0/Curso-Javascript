@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(1, 1, 37);
+            color: white;
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="msg" name="msg" class="msg">Clique em mim</div>
+    <script>
+        //SELECIONANDO POR SELETOR = querySelector()
+        // SE FOR ID - # | SE FOR CLASSE = .
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+        
+        /*SELECIONANDO POR MARCA = getElementsByTagName()
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        corpo.style.backgroundColor = 'black'
+        document.write(p1.innerHTML)
+        */
+
+        /*SELECIONANDO POR ID = getElementById()
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+        */
+
+        /*SELECIONANDO POR NOME = getElementsByName()
+        var d = window.document.getElementsByName('msg')[0]
+        d.style.background = 'grey'
+        d.innerText = 'olá...'
+        */
+
+        /*SELECIONANDO POR CLASSE = getElementsByClassName()
+        var d = window.document.getElementsByClassName('msg')[0]
+        d.style.fontSize = '50px'
+        d.style.color = 'blue'
+        */
+    </script>
+    
+</body>
+</html>

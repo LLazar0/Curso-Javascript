@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(2, 2, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#form {
+    width: 210px;
+    margin: auto;
+}
+
+#msg, #msg2 {
+    text-align: left;
+}
+
+#msg2 {
+    font-size: 13px;
+}
+
+#b1, #b2 {
+    padding: 5px 30px;
+    background-color: rgb(138, 159, 255);
+    border-color: rgb(138, 159, 255);
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+#res { 
+    padding: 10px;
+}
